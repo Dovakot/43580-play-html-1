@@ -9,6 +9,352 @@
     <title>HTML Academy: PlayHTML. Приветственное письмо</title>
   </head>
   <body>
-
+    <div class="wrapper">
+      <table class="wrapper__container" width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td class="wrapper__content">
+            <table class="header" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="header__logo">
+                  <a href="https://htmlacademy.ru/" target="_blank" title="Сайт компании">
+                    <img src="img/logo.png" alt="PlayHTML" width="187" height="33" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="header__nav">
+                  <table class="nav" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="nav__column">
+                        <table class="nav__list" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="nav__item">
+                              <a href="https://htmlacademy.ru/courses" target="_blank" title="Курсы">
+                                <b>Курсы</b>
+                              </a>
+                            </td>
+                            <td class="nav__item">
+                              <a href="https://htmlacademy.ru/events" target="_blank" title="Вебинары">
+                                <b>Вебинары</b>
+                              </a>
+                            </td>
+                            <td class="nav__item">
+                              <a href="https://htmlacademy.ru/about" target="_blank" title="О школе">
+                                <b>О школе</b>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td class="nav__column">
+                        <table class="nav__list" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="nav__item">
+                              <a href="https://htmlacademy.ru/sale" target="_blank" title="Распродажа">
+                                <b>Распродажа</b>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="header__welcome">
+                  <table class="welcome" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="welcome__container">
+                        <table class="welcome__text" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="welcome__text-content">
+                              <p>
+                                <b>Здравствуйте, {{name}}</b>
+                              </p>
+                              <p>
+                                Благодарим вас за регистрацию на курс «Начальный html+css».
+                              </p>
+                              <p>
+                                Курс стартует 1 июля в 17.00 по московскому времени.
+                                Письма со ссылками для входа в кабинет придут на указанную почту за день до старта курса.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table class="welcome__image" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="welcome__image-content">
+                              <img src="img/bg-welcome.png" alt="Начальный html+css" width="175" height="269" />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table class="about-course" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="about-course__content">
+                  <h2 class="about-course__title">
+                    <b>Что вас ждет на курсе</b>
+                  </h2>
+                  <p>
+                    Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты.
+                    А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.
+                  </p>
+                  <p>
+                    В этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и поделится секретами мастерства.
+                    А если у вас останутся вопросы, наставник сможет ответить на них на консультации.
+                  </p>
+                  <p>
+                    После завершения курса вам нужно будет подготовить свой проект к защите — убедиться, что он реализован в соответствии с техническим заданием.
+                  </p>
+                  <p>
+                    Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <table class="course-leaders" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="course-leaders__content">
+                  <h2 class="course-leaders__title">
+                    <b>Ведущие курса</b>
+                  </h2>
+                  <table class="list-leaders course-leaders__list" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="list-leaders__container">
+                        <table class="list-leaders__item" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="list-leaders__item-content">
+                              <p class="list-leaders__item-image">
+                                <img src="img/leader-1.png" alt="Антон Громов" width="88" height="88" />
+                              </p>
+                              <p class="list-leaders__item-text">
+                                <b>Антон Громов</b><br />
+                                Фронтенд- разработчик в Cats Development
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table class="list-leaders__item" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="list-leaders__item-content">
+                              <p class="list-leaders__item-image">
+                                <img src="img/leader-2.png" alt="Илья Раменский" width="88" height="88" />
+                              </p>
+                              <p class="list-leaders__item-text">
+                                <b>Илья Раменский</b><br />
+                                Team Lead в Lizard Software
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table class="list-leaders__item" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="list-leaders__item-content">
+                              <p class="list-leaders__item-image">
+                                <img src="img/leader-3.png" alt="Игнатий Чубаров" width="88" height="88" />
+                              </p>
+                              <p class="list-leaders__item-text">
+                                <b>Игнатий Чубаров</b><br />
+                                Преподаватель IT  в РУИТ
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <p class="course-leaders__text">
+                    Пока вы ждёте начала курса, вам могут быть интересны вебинары на разные темы, которые проходят на платформе ежедневно.
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <table class="events" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="events__content">
+                  <h2 class="events__title">
+                    <b>Другие мероприятия</b>
+                  </h2>
+                  <table class="events__list list-events" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="list-events__container">
+                        <table class="list-events__item" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="list-events__item-content">
+                              <h3 class="list-events__item-title">
+                                <a href="https://htmlacademy.ru/vebinar/about" target="_blank" title="Страница вебинара"><b>Тренды frontend-разработки</b></a>
+                              </h3>
+                              <p class="list-events__item-data">
+                                <b>20 июня, 17:00</b>
+                              </p>
+                              <p class="list-events__item-text">
+                                Самые многообещающие направления развития фронтенда  в 2020 году
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="list-events__container">
+                        <table class="list-events__item" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="list-events__item-content">
+                              <h3 class="list-events__item-title">
+                                <a href="https://htmlacademy.ru/vebinar/about" target="_blank" title="Страница вебинара"><b>Figma vs Photoshop</b></a>
+                              </h3>
+                              <p class="list-events__item-data">
+                                <b>21 июня, 17:00</b>
+                              </p>
+                              <p class="list-events__item-text">
+                                Почему давно пора отказаться от последнего?
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="list-events__container">
+                        <table class="list-events__item" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="list-events__item-content">
+                              <h3 class="list-events__item-title">
+                                <a href="https://htmlacademy.ru/vebinar/about" target="_blank" title="Страница вебинара"><b>Что такое Git и как его использовать?</b></a>
+                              </h3>
+                              <p class="list-events__item-data">
+                                <b>22 июня, 17:00</b>
+                              </p>
+                              <p class="list-events__item-text">
+                                Разберем тонкости использования самой популярной системы контроля версий.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <a class="button" href="https://htmlacademy.ru/events" target="_blank" title="Список всех мероприятий">Все мероприятия</a>
+                  <p class="events__image">
+                    <img src="img/bg-events.png" alt="Мероприятия" width="273" height="290" />
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <table class="footer" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="footer__content">
+                  <table class="footer__contacts" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="footer__contacts-content">
+                        <h2 class="footer__title footer__contacts-title">
+                          <b>Мы в социальных сетях</b>
+                        </h2>
+                        <table class="social-list" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="social-list__item">
+                              <a href="https://www.facebook.com" target="_blank" title="Группа Facebook">
+                                <img src="img/icon-facebook.png" alt="facebook.com" width="24" height="24" />
+                              </a>
+                            </td>
+                            <td class="social-list__item">
+                              <a href="https://www.instagram.com" target="_blank" title="Профиль Instagram">
+                                <img src="img/icon-inst.png" alt="instagram.com" width="24" height="24" />
+                              </a>
+                            </td>
+                            <td class="social-list__item">
+                              <a href="https://www.youtube.com" target="_blank" title="YouTube канал">
+                                <img src="img/icon-youtube.png" alt="youtube.com" width="24" height="24" />
+                              </a>
+                            </td>
+                            <td class="social-list__item">
+                              <a href="https://www.telegram.org" target="_blank" title="Telegram канал">
+                                <img src="img/icon-telegram.png" alt="telegram.org" width="24" height="24" />
+                              </a>
+                            </td>
+                            <td class="social-list__item">
+                              <a href="https://vk.com" target="_blank" title="Группа ВКонтакте">
+                                <img src="img/icon-vk.png" alt="vk.com" width="24" height="24" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="footer__contacts-content">
+                        <h2 class="footer__title footer__contacts-title">
+                          <b>Свяжитесь с нами</b>
+                        </h2>
+                        <p class="footer__contacts-link">
+                          <a href="mailto:study@htmlplay.com" target="_blank" title="Электронная почта">study@htmlplay.com</a>
+                        </p>
+                        <p class="footer__contacts-link">
+                          <a href="tel:88006907668" target="_blank" title="Номер телефона">8-800-690-76-68</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="footer__nav" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="footer__nav-content">
+                        <h2 class="footer__title footer__nav-title">
+                          <b>Полезные ссылки</b>
+                        </h2>
+                        <table class="nav-list" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="nav-list__item">
+                              <a href="https://htmlacademy.ru" target="_blank" title="Бесплатные вебинары">Бесплатные вебинары</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="nav-list__item">
+                              <a href="https://htmlacademy.ru" target="_blank" title="Обучающие курсы">Обучающие курсы</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="nav-list__item">
+                              <a href="https://htmlacademy.ru" target="_blank" title="Тесты">Тесты</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="nav-list__item">
+                              <a href="https://htmlacademy.ru" target="_blank" title="Наш блог">Наш блог</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="nav-list__item">
+                              <a href="https://htmlacademy.ru" target="_blank" title="Истории студентов">Истории студентов</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="wrapper__disclaimer">
+            <p>
+              Вы получили это письмо, так как являетесь пользователем портала HTMLPlay.
+              Рассылка производится в соответствии с пользовательским соглашением.
+              Если вы не хотите получать рассылку, вы можете <a href="{{unsubscribe}}" target="_blank" title="Отписаться от рассылки">отписаться</a> или <a href="https://htmlacademy.ru/profile" target="_blank" title="Параметры рассылки">настроить параметры</a>.
+            </p>
+            <p>
+              Если письмо отображается некорректно или вы хотите им поделиться, <a href="https://htmlacademy.ru" target="_blank" title="Веб-версия письма">жмите сюда</a>.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
